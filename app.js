@@ -33,7 +33,7 @@ function addTodo(event) {
     //Create Trash Button
     const trash = document.createElement("button");
     trash.innerHTML = '<i class="fa-solid fa-trash"></i>';
-    trash.classList.add("todo-complete");
+    trash.classList.add("todo-trash");
 
     todoDiv.appendChild(trash);
 
